@@ -1,9 +1,11 @@
 # AGC-DRR
 Attributed Graph Clustering with Dual Redundancy Reduction (IJCAI 2022)
+
 GCN,Graph Contrastive Learning
+
 e-mail:glnudt@163.com 
 
-cite{
+cite
 @inproceedings{ijcai2022p418,
   title     = {Attributed Graph Clustering with Dual Redundancy Reduction},
   author    = {Gong, Lei and Zhou, Sihang and Tu, Wenxuan and Liu, Xinwang},
@@ -18,4 +20,4 @@ cite{
   doi       = {10.24963/ijcai.2022/418},
   url       = {https://doi.org/10.24963/ijcai.2022/418},
 }
-}
+
