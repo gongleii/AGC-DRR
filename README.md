@@ -18,6 +18,6 @@ cite
   month     = {7},
   note      = {Main Track},
   doi       = {10.24963/ijcai.2022/418},
-  url       = {https://doi.org/10.24963/ijcai.2022/418},
+  url       = {https://doi.org/10.24963/ijcai.2022/418\},
 
 }
