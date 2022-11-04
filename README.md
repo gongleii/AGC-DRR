@@ -5,7 +5,7 @@ GCN,Graph Contrastive Learning
 
 e-mail:glnudt@163.com 
 
-cite
+
 @inproceedings{ijcai2022p418,
   title     = {Attributed Graph Clustering with Dual Redundancy Reduction},
   author    = {Gong, Lei and Zhou, Sihang and Tu, Wenxuan and Liu, Xinwang},
