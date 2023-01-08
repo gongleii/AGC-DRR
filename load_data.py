@@ -56,15 +56,15 @@ def load_graph(k, graph_k_save_path, graph_save_path, data_path,walk_length,num_
     adj = normalize(adj)
     adj = sparse_mx_to_torch_sparse_tensor(adj)
 
-    G = nx.DiGraph()
+#     G = nx.DiGraph()
 
-    # add edges
-    for i in range(len(edges)):
-        src = str(edges[i][0])
-        dst = str(edges[i][1])
-        G.add_edge(src, dst)
-        G[src][dst]['weight'] = 1.0
-        #  print("88888888888888",G.edges)
+#     # add edges
+#     for i in range(len(edges)):
+#         src = str(edges[i][0])
+#         dst = str(edges[i][1])
+#         G.add_edge(src, dst)
+#         G[src][dst]['weight'] = 1.0
+#         #  print("88888888888888",G.edges)
 
 
 
@@ -73,10 +73,10 @@ def load_graph(k, graph_k_save_path, graph_save_path, data_path,walk_length,num_
 
     # g = Graph(G)
 
-    model = Node2vec_onlywalk(num = n,graph=G, path_length=walk_length, num_paths=num_walk, dim=4, workers=8,
-                              window=5, p=2, q=0.5, dw=False)
+    #model = Node2vec_onlywalk(num = n,graph=G, path_length=walk_length, num_paths=num_walk, dim=4, workers=8,
+    #                          window=5, p=2, q=0.5, dw=False)
 
-    return adj,model.walker#,random_edge
+    return adj#,model.walker#,random_edge
 
 
 def normalize(mx):
