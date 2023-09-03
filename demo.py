@@ -16,7 +16,7 @@ from load_data import *
 
 import warnings
 
-from gae_dblp.view_learner import ViewLearner
+from view_learner import ViewLearner
 
 warnings.filterwarnings('ignore')
 from sklearn.metrics.pairwise import cosine_similarity
