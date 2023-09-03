@@ -2,16 +2,16 @@ import random
 
 import logging
 from torch_scatter import scatter
-import gae_dblp.opt as opt
-from gae_dblp.opt import args
+import opt as opt
+from opt import args
 import torch
 import numpy as np
-from gae_dblp.GAE import IGAE,IGAE_encoder
+from GAE import IGAE,IGAE_encoder
 
-from gae_dblp.utils import setup_seed
-from gae_dblp.train import Train_gae
-from sklearn.decomposition import PCA
-from gae_dblp.load_data import *
+from utils import setup_seed
+from train import Train_gae
+from decomposition import PCA
+from load_data import *
 
 
 import warnings
