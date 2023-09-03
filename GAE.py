@@ -3,8 +3,8 @@ from torch import nn
 import torch.nn.functional as F
 from torch.nn import Module,Parameter,Dropout
 import numpy as np
-from gae_dblp.view_learner import ViewLearner
-from gae_dblp.opt import args
+from view_learner import ViewLearner
+from opt import args
 
 
 class GNNLayer(Module):
