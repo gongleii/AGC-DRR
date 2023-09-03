@@ -5,7 +5,6 @@ GCN,Graph Contrastive Learning
 
 e-mail:glnudt@163.com 
 
-[code] delete all 'gae_dblp.' 
 
 
 
