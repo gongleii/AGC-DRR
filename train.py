@@ -1,9 +1,9 @@
 import torch
-from gae_dblp.opt import args
-from gae_dblp.utils import eva,target_distribution
+from opt import args
+from utils import eva,target_distribution
 from torch.optim import Adam
 import torch.nn.functional as F
-from gae_dblp.load_data import *
+from load_data import *
 
 import warnings
 warnings.filterwarnings('ignore')
