@@ -5,6 +5,9 @@ GCN,Graph Contrastive Learning
 
 e-mail:glnudt@163.com 
 
+[code] delete all 'gae_dblp.' 
+
+
 
 @inproceedings{ijcai2022p418,
   title     = {Attributed Graph Clustering with Dual Redundancy Reduction},
