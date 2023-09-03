@@ -1,6 +1,6 @@
 import torch
 from torch.nn import Sequential, Linear, ReLU
-from gae_dblp.opt import  args
+from opt import  args
 from torch import nn
 
 
