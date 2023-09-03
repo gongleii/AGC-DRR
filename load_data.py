@@ -4,7 +4,7 @@ import scipy.sparse as sp
 from torch.utils.data import Dataset
 
 import networkx as nx
-import gae_dblp.opt
+import opt
 
 def wrong_edge(num):
     v1 = np.random.randint(100,size = num)
