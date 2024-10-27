@@ -5,8 +5,8 @@ GCN,Graph Contrastive Learning
 
 e-mail:glnudt@163.com 
 
-
-
+datasets:https://github.com/yueliu1999/Awesome-Deep-Graph-Clustering
+CITESEER,AMAP,ACM,DBLP
 
 @inproceedings{ijcai2022p418,
   title     = {Attributed Graph Clustering with Dual Redundancy Reduction},
